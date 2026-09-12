@@ -1,15 +1,13 @@
 # AirTracker ✈️
 
-A modern, fast, and responsive **Flight Search & Booking Application** built with React, Vite, and Tailwind CSS.
+A modern, fast, and responsive **Flight Search & Booking Application** built with React, Vite, and CSS.
 
-![AirTracker Banner](https://plus.unsplash.com/premium_photo-1679830513990-82a4280f41b4?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3)
 
 ---
 
 ## 🌐 Live Demo & Repository
 
 - 🚀 **Live Application**: [https://airtracker-two.vercel.app](https://airtracker-two.vercel.app)
-- 🐙 **GitHub Repository**: [https://github.com/DarsiHimaja/AirTracker](https://github.com/DarsiHimaja/AirTracker)
 
 ---
 
@@ -28,41 +26,27 @@ A modern, fast, and responsive **Flight Search & Booking Application** built wit
   - Filter flights by **Class**, **Departure Time Window** (Morning, Afternoon, Evening, Night), **Airlines**, and **Price Range**.
   - Sort results by **Price (Low to High)** or **Departure Time**.
 
-- 🛡️ **Cancellation Policy & Refund Info**:
-  - Interactive **Cancellation Policy & Info** modal on each flight card detailing 100% free cancellation windows and instant refund terms.
-
 - 📝 **Passenger Booking**:
   - Complete passenger details input with client-side validation (Title, Name, DOB, Passenger Type, Mobile, Aadhar).
   - Dynamic passenger addition/removal with automatic price calculation.
 
-- 💳 **Payment & E-Ticket Generation**:
-  - Payment options simulation via **Razorpay** (Card/Netbanking) or **UPI**.
-  - Automated PDF e-ticket generation and instant browser download.
-
 - 👤 **User Profile & Booking Management**:
   - View user statistics (Total Bookings, Total Spent, Favorite Destination).
   - Full booking history list with status tracking.
-  - **Cancel Booking** capability with persistent status saving (`Cancelled (Refund Processed)`). Once cancelled, action buttons are cleanly hidden.
+  - **Cancel Booking** capability with persistent status saving (`Cancelled (Refund Processed)`).
 
 ---
 
 ## 🛠️ Tech Stack
 
 - **Framework**: React 18 (Vite)
-- **Styling**: Tailwind CSS, PostCSS
-- **Icons**: FontAwesome Icons (`@fortawesome/react-fontawesome`)
 - **Routing**: React Router DOM (`react-router-dom`)
-- **Notifications**: React Toastify (`react-toastify`)
 - **PDF Generation**: jsPDF (`jspdf`)
 - **Deployment**: Vercel
 
 ---
 
 ## 🚀 Getting Started Locally
-
-### Prerequisites
-- Node.js (v18 or higher)
-- npm or yarn
 
 ### Installation
 
@@ -98,7 +82,3 @@ npx vercel --prod
 ```
 
 ---
-
-## 📝 License
-
-This project is open-source and available under the [MIT License](LICENSE).
